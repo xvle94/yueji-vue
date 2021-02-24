@@ -1,0 +1,430 @@
+.overview{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:url(../../../public/overBg.png) center 1px no-repeat;
+  background-size: 100% 100%;
+  min-width: 1366px;
+  min-height: 768px;
+  .hd-box{
+    color:#23cefd;
+    clear: both;
+    position: relative;
+    padding: 0 20px;
+    .back-btn{
+      float: left;
+      width: 22%;
+      height: 30px;
+      background:url(../../../public/backBtn.png) center 1px no-repeat;
+      background-size: 100% 100%;
+      color: #23cefd;
+      text-align: left;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing:10px;
+      padding-left: 22px;
+    }
+    .title{
+      position: absolute;
+      top: 14px;
+      left: 50%;
+      transform: translate(-50%);
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+    .time{
+      float: right;
+      width: 23%;
+      height: 30px;
+      line-height: 30px;
+      background:url(../../../public//timeBg.png) center 1px no-repeat;
+      background-size: 100% 100%;
+      color: #23cefd;
+      text-align: left;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: bold;
+      padding-right: 22px;
+      text-align: right;
+    }
+  }
+  .hd-bd-box{
+    position: relative;
+    padding: 20px;
+    clear: both;
+    .lf{
+      width: 31%;
+      float: left;
+      .middle{
+        padding: 30px 15px;
+        text-align: center;
+        float: left;
+        width: 50%;
+        height: 180px;
+        background:url(../../../public/loophole1.png) center no-repeat;
+        background-size: 100% 100%;
+        .num{
+          font-size: 40px;
+          color: #58dbff;
+        }
+        .label{
+          color: #fff;
+          font-size: 12px;
+        }
+        .bar{
+          border:1px solid #fff;
+          border-radius: 2px;
+          height: 30px;
+          width: 94%;
+          margin:20px auto 0 auto;
+          color: #fff;
+          position: relative;
+          .bar-num{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background:linear-gradient(to right, #006ae1 0%,#16b7ff 100%);
+            z-index: 1;
+          }
+          .label{
+            position: absolute;
+            left: 12px;
+            top: 8px;
+            bottom: 0;
+            z-index: 2;
+          }
+          .percentage{
+            position: absolute;
+            right: 20px;
+            top: 6px;
+            bottom: 0;
+            z-index: 2;
+            font-size: 14px;
+          }
+        }
+      }
+      .low{
+        padding: 30px 15px;
+        text-align: center;
+        float: left;
+        width: 50%;
+        height: 180px;
+        background:url(../../../public/loophole1.png) center no-repeat;
+        background-size: 100% 100%;
+        .num{
+          font-size: 40px;
+          color: #58dbff;
+        }
+        .label{
+          color: #fff;
+          font-size: 12px;
+        }
+        .bar{
+          border:1px solid #fff;
+          border-radius: 2px;
+          height: 30px;
+          width: 94%;
+          margin:20px auto 0 auto;
+          color: #fff;
+          position: relative;
+          .bar-num{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background:linear-gradient(to right, #006ae1 0%,#16b7ff 100%);
+            z-index: 1;
+          }
+          .label{
+            position: absolute;
+            left: 12px;
+            top: 8px;
+            bottom: 0;
+            z-index: 2;
+          }
+          .percentage{
+            position: absolute;
+            right: 20px;
+            top: 6px;
+            bottom: 0;
+            z-index: 2;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .mid{
+      margin: 26px 20px 0;
+      .total-bg{
+        width: 33%;
+        float: left;
+        height: 60px;
+        background:url(../../../public/totalBg.png) center no-repeat;
+        background-size: 100% 100%;
+        margin:60px 40px 0 40px;
+        color:#fff;
+        text-align: center;
+        vertical-align: bottom;
+        position: relative;
+        .num{
+          position: absolute;
+          top: -88%;
+          left: 50%;
+          transform: translate(-50%);
+          // border: 1px solid #23cefd;
+          border-radius: 4px;
+          padding: 10px 10px;
+          font-size: 4.6rem;
+          letter-spacing: 6px;
+        }
+        .title{
+          position: absolute;
+          bottom: 7px;
+          left: 50%;
+          transform: translate(-50%);
+          font-size: 14px;
+        }
+      }
+    }
+    .rt{
+      width: 30%;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      height: 180px;
+      background:url(../../../public/loophole4.png) center no-repeat;
+      background-size: 100% 100%;
+      // padding: 20px 30px;
+      .rt-box{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+  .bd-box{
+    position: relative;
+    padding: 20px;
+    clear: both;
+    overflow: hidden;
+    height: 36%;
+    .bd-lf{
+      width: 24%;
+      padding: 3% 1%;
+      text-align: center;
+      float: left;
+      height: 100%;
+      // background:url(../../../public/loophole2.png) center no-repeat;
+      background-size: 100% 100%;
+      .num{
+        font-size: 4rem;
+        color: #ec6f5a;
+      }
+      .label{
+        color: #fff;
+        font-size: 1rem;
+        margin: 6% auto;
+      }
+      .bar{
+        border:1px solid #fff;
+        border-radius: 2px;
+        height: 24%;
+        width: 94%;
+        margin:0 auto;
+        color: #fff;
+        position: relative;
+        .bar-num{
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          background:linear-gradient(to right, #ec6f5a 0%,#f3a99c 100%);
+          z-index: 1;
+        }
+        .pro{
+          position: absolute;
+          left: 12px;
+          top: 27%;
+          bottom: 0;
+          z-index: 2;
+        }
+        .percentage{
+          position: absolute;
+          right: 20px;
+          top: 12%;
+          bottom: 0;
+          z-index: 2;
+          font-size: 30px;
+        }
+      }
+    }
+    .bd-mid{
+      width: 50%;
+      height: 100%;
+      float: left;
+      background:url(../../../public/ipBg.png) center no-repeat;
+      background-size: 100% 100%;
+      position: relative;
+      .ip{
+        color: #00d2ff;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 20px;
+      }
+      .lf-tp{
+        position: absolute;
+        top: 18%;
+        left: 7.5%;
+        background: linear-gradient(to bottom, #fff, #00d6ed);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow:2px 2px 2px #00e6ff;
+      }
+      .rt-tp{
+        position: absolute;
+        top: 18%;
+        right: 8%;
+        background: linear-gradient(to bottom, #fff, #00d6ed);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow:2px 2px 2px #00e6ff;
+      }
+      .lf-bt{
+        position: absolute;
+        bottom: 36%;
+        left: 7.5%;
+        background: linear-gradient(to bottom, #fff, #00d6ed);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow:2px 2px 2px #00e6ff;
+      }
+      .rt-bt{
+        position: absolute;
+        bottom: 36%;
+        right: 8%;
+        background: linear-gradient(to bottom, #fff, #00d6ed);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow:2px 2px 2px #00e6ff;
+      }
+    }
+    .bd-rt{
+      width: 26%;
+      height: 100%;
+      float: right;
+      background:url(../../../public/loophole5.png) center no-repeat;
+      background-size: 100% 100%;
+      .newList{
+        width: 100%;
+        height: 78%;
+        overflow: hidden;
+        padding: 20px 30px;
+        ul{
+          li{
+            display: flex;
+            flex-direction: row;
+            height: 22px;
+            line-height: 22px;
+            font-size: 14px;
+            color:#fff;
+            vertical-align: middle;
+            .danger-icon{
+              width: 16px;
+              height: 16px;
+              display: inline;
+              margin: 4px 10px 0;
+            }
+            .title{
+              flex:1;
+            }
+            .time{
+              flex:1;
+              text-align: right;
+            }
+            .warn-icon{
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              line-height: 22px;
+              vertical-align: middle;
+              margin: 3px 10px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ft-box{
+    position: relative;
+    padding: 20px;
+    clear: both;
+    overflow: hidden;
+    height: 36%;
+    bottom: 0;
+    .ft-lf{
+      width: 26%;
+      height: 100%;
+      float: left;
+      background:url(../../../public/loophole5.png) center no-repeat;
+      background-size: 100% 100%;
+    }
+    .ft-mid{
+      width: 48%;
+      height: 100%;
+      float: left;
+      background:url(../../../public/loophole6.png) center no-repeat;
+      background-size: 100% 100%;
+    }
+    .ft-rt{
+      width: 26%;
+      height: 100%;
+      float: right;
+      background:url(../../../public/loophole5.png) center no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  .lf-title{
+    float: left;
+    width: 204px;
+    height: 30px;
+    line-height: 30px;
+    background:url(../../../public/btn1.png) center 1px no-repeat;
+    background-size: 100% 100%;
+    color: #23cefd;
+    text-align: left;
+    margin: 14px 0 0 12px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 22px;
+  }
+  .ul{
+    padding: 20px 40px 0;
+    overflow: hidden;
+    clear: both;
+    .li{
+      height: 40px;
+      line-height: 40px;
+      padding-right:30px;
+      color: #23cefd;
+      
+      .name{
+        display: inline-block;
+        width: 90%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+      }
+      .value{
+        float: right;
+      }
+    }
+  }
+}

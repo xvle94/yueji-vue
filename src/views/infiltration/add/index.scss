@@ -1,0 +1,161 @@
+#container{
+    .el-table td, .el-table th.is-leaf {
+        border-bottom: 1px solid #3C4B62;
+    }
+    .el-table--border::after, .el-table--group::after, .el-table::before {
+        background-color: #3C4B62;
+    }
+    .tab-top{
+        .el-input__inner{
+            background-color: #3C4B62;
+            border: none;
+            color: #fff;
+        }
+    }
+    .w-left{
+        width: 35%;
+        min-height:350px;
+        background: #3C4B62;
+        margin-top: 10px;
+        padding:10px 10px;
+        display: inline-block;
+        .el-tree{
+            background:#3C4B62;
+            overflow-y: auto;
+            height: 340px;
+            .el-tree-node__label {
+                color: #fff;
+            }
+            .tree-icon{
+                display: inline-block;
+                width: 22px;
+                height: 22px;
+                background: url(../../../icons/svg/wenjianjia.png) center no-repeat;
+                background-size: 100% 100%;
+                margin-right: 10px;
+            }
+            .el-tree-node__expand-icon.expanded{
+                transform:rotate(0deg);
+                display: inline-block;
+                width: 22px;
+                height: 22px;
+                background: url(../../../icons/svg/files.png) center no-repeat;
+                background-size: 100% 100%;
+                margin-right: 10px;
+            }
+            .el-tree-node__expand-icon.is-leaf{
+                display: inline-block;
+                width: 22px;
+                height: 22px;
+                background: url(../../../icons/svg/wenjian.png) center no-repeat;
+                background-size: 100% 100%;
+                margin-right: 10px;
+            }
+            .el-tree-node__content:hover{
+                background: transparent
+            }
+            .el-tree-node__content:active{
+                background: transparent
+            }
+            .el-tree-node.is-current > .el-tree-node__content {
+                background-color: transparent !important;
+            }
+            .el-tree-node:focus>.el-tree-node__content{
+                background-color: transparent !important;
+            }
+        }
+        .el-tree::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    .checkBox{
+       .c-top{
+         margin-left: 30px;
+         label{
+            margin-right: 15px;
+         }
+       }
+       .c-middle{
+            margin-left: 30px;
+            p{
+                font-size: 18px;
+                margin: 20px 0;
+            }
+            div{
+                display: inline-block;
+                li{
+                    margin: 5px 0px;
+                }
+            }
+            .left-ul{
+                width: 40%;
+                .s-left{
+                    display: inline-block;
+                    width: 40%;
+                    font-size: 12px;
+                }
+                .s-right{
+                    display: inline-block;
+                    width: 60%;
+                    font-size: 12px;
+                }
+            }
+            .right-ul{
+                width: 60%;
+                .s-left{
+                    display: inline-block;
+                    width: 60%;
+                    font-size: 12px;
+                }
+                .s-right{
+                    display: inline-block;
+                    width: 40%;
+                    font-size: 12px;
+                }
+            }
+       } 
+       .c-bottom{
+            border-top: 1px solid #DCDFE6;
+            margin-top: 20px;
+            p{
+                font-size: 18px;
+                margin: 20px 0 20px 30px;
+            }
+            .head{
+                margin:0px 0px 20px 30px;
+                div{
+                    padding: 0 10px;
+                    display: inline-block;
+                }
+            }
+       }
+       .left{
+           p{
+                font-size: 18px;
+                margin:0px 0 20px 30px;
+           }
+       }
+    }
+    .testForm{
+        .el-radio__label{
+            font-size: 16px
+        }
+    }
+    .handleBox{
+        .el-col-10{
+            .el-tabs{
+                padding-left: 20px
+            }
+        }
+        .blue-button{
+            margin-bottom: 15px;
+        }
+        
+    }
+    .shell{
+        .el-input{
+            position: absolute;
+            top: 80%;
+        }
+    }
+}
